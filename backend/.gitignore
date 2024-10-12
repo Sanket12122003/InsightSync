@@ -1,0 +1,16 @@
+# Python-related ignores
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Environment variables
+.env
+
+# Node.js-related ignores 
+node_modules/
+
+/node_modules
+/venv
