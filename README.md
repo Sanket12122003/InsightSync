@@ -52,7 +52,7 @@ Businesses today face significant challenges when trying to make **real-time dec
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/InsightSync.git
+   https://github.com/Sanket12122003/InsightSync.git
 ## Backend Setup
 
 1. **Navigate to the project directory:**
