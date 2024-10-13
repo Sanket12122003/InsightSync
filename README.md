@@ -59,16 +59,22 @@ Businesses today face significant challenges when trying to make **real-time dec
    ```bash
    cd InsightSync
     **On Windows:**
-    python -m venv env
-   .\env\Scripts\activate
+    python -m venv venv
+   .\venv\Scripts\activate
 
    On macOS/Linux:
-   python3 -m venv env
-   source env/bin/activate
+   python3 -m venv venv
+   source venv/bin/activate
    
    Install backend dependencies:
 
    pip install -r requirements.txt
+   
+   pip install Flask Flask-CORS requests
+   
+   pip install Flask  faiss-cpu  textblob  transformers sentence-transformers Flask-SocketIO python-dotenv
+
+   pip install fastapi  python-socketio fastapi-socketio
 
    Run the backend server:
     python app.py
@@ -82,6 +88,12 @@ Businesses today face significant challenges when trying to make **real-time dec
       Install frontend dependencies:
       
       npm install
+
+      npm install chart.js react-chartjs-2
+
+
+      npm install @mui/material @emotion/react @emotion/styled
+
 
       Run the frontend:
      
