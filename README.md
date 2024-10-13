@@ -53,3 +53,13 @@ Businesses today face significant challenges when trying to make **real-time dec
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/InsightSync.git
+## Backend Setup
+
+1. **Navigate to the project directory:**
+   ```bash
+   cd InsightSync
+ **On Windows:**
+ python -m venv env
+.\env\Scripts\activate
+
+   
