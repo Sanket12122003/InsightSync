@@ -58,8 +58,35 @@ Businesses today face significant challenges when trying to make **real-time dec
 1. **Navigate to the project directory:**
    ```bash
    cd InsightSync
- **On Windows:**
- python -m venv env
-.\env\Scripts\activate
+    **On Windows:**
+    python -m venv env
+   .\env\Scripts\activate
+
+   On macOS/Linux:
+   python3 -m venv env
+   source env/bin/activate
+   
+   Install backend dependencies:
+
+   pip install -r requirements.txt
+
+   Run the backend server:
+    python app.py
+
+## Frontend setup
+
+  ** Navigate to project directory:**
+  ```bash
+      Copy code
+      cd sales-prediction-app
+      Install frontend dependencies:
+      
+      npm install
+
+      Run the frontend:
+     
+      npm start
+
+
 
    
